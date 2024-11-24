@@ -181,6 +181,7 @@ int main() {
 
   //clean up 
   //TODO make a function
+  glDeleteProgram(shader);
   SDL_GL_DeleteContext(sdl.glContext);
   SDL_DestroyWindow(sdl.window);
   SDL_Quit();
