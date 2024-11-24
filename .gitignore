@@ -1,4 +1,4 @@
 *.out
-*.txt
+compiler.txt
 test
 build/
